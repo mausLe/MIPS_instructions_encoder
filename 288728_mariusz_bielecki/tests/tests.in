@@ -1,3 +1,38 @@
-add $s0, $s1, $s2
-addi $t0,$s3,-12
-lui $19, 7897
+addi $s0, $v1, -10
+ADDI $s0,$v1, -0xa
+ADDI   $16,$3,-0XA #kom
+ADDI $16,   $3, -0xA # kommm
+#kom
+
+mfhi $10
+add $0, $1, $2
+lui $15, 2999 
+addiu $1, $2, 100
+slti $1, $2, 100
+sltiu $1, $2, 100
+andi $1, $2, 100
+ori $1, $2, 100
+xori $1, $2, 100
+sll $1, $2, 10
+srl $1, $2, 10
+sra $1, $2, 10
+sllv $1, $2, $4
+srlv $1, $2, $4
+srav $1, $2, $4
+mfhi $25
+mthi $22
+mflo $16
+mtlo $18
+mult $26, $22
+multu $20, $30
+div $5, $6
+divu $3, $1
+addu $7, $8, $9
+sub $10, $11, $12
+subu $13, $14, $15
+and $16, $17, $18
+or $19, $20, $21
+xor $22, $23, $24
+nor $25, $26, $27
+slt $28, $29, $30
+sltu $s1, $s2, $s3
