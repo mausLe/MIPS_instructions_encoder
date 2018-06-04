@@ -1,5 +1,3 @@
-## Wykonane zadania: 
-1
 ## Wymagania:
 Python 3 (program testowany był na python 3.6.3)
 
@@ -9,5 +7,3 @@ Python 3 (program testowany był na python 3.6.3)
     make test (zakładam, że w PATH istnieje zmienna python3)
 ## wyczyszczenie katalogu po przetestowaniu:
     make clean
-
-P.S. obrazek, który zamieściłem w komentarzu na SKOS miał raczej sens wczoraj, dziś ten program już nie wygląda tak okropnie.
