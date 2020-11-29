@@ -1,9 +1,0 @@
-#add $s0,$zero,$t1 
-add $s1,$s4,$t0 
-add $t0,$s2,$t3 
-sub $t1,$zero,$t0 
-add $s2,$t0,$t0 
-lw $s2,37($s1)
-sw $s2,37($s1)
-addi $s3,$t1,15 
-j 0 
